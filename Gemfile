@@ -32,6 +32,12 @@ gem 'spring',        group: :development
    #add validation-association matchers
   gem 'shoulda-matchers', require: false
 
+group :production do
+
+  #gem for heroku to handle assets
+  gem 'rails_12factor', '0.0.2'
+
+end
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
