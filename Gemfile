@@ -32,6 +32,24 @@ gem 'spring',        group: :development
    #add validation-association matchers
   gem 'shoulda-matchers', require: false
 
+  # Call 'debugger' anywhere in the code to stop execution and get a debugger console
+  gem 'byebug'
+
+  # Access an IRB console on exception pages or by using <%= console %> in views
+  gem 'web-console', '~> 2.0.0.beta4'
+
+  
+  
+
+  #add rspec gem
+  gem 'rspec-rails', '~> 3.0.0'
+
+  #add validation-association matchers
+  gem 'shoulda-matchers', require: false
+
+  #CAPYBARA SUPER STAR POWERS ADDED
+  gem 'capybara'
+
 group :production do
 
   #gem for heroku to handle assets
